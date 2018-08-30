@@ -1,0 +1,798 @@
+{
+  "catalogue": {
+    "name": "Neutral",
+    "id": "bda2-0cf4-9263-e804",
+    "authorContact": "jmsadler@gmail.com",
+    "authorName": "Jeremy Sadler",
+    "authorUrl": "https://www.facebook.com/groups/ASOIAFTMG/",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "2264-d446-544f-f0ab",
+    "gameSystemRevision": 1,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Brienne - Maid of Tarth",
+        "id": "0d19-b4c4-31d4-67d2",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "07a5-d85f-ac2e-1ea3", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "New CategoryLink", "id": "f397-942e-4b17-cc36", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"}
+        ],
+        "constraints": [
+          {
+            "id": "c458-bb39-1c72-ba62",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 2}],
+        "profiles": [
+          {
+            "name": "Knightly Vow",
+            "id": "cb0f-b064-5699-664a",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "\"A true knight is sworn to protect those who are weaker than himself, or die in the attempt.\"",
+                "typeId": "fc57-3aeb-b382-7d2c"
+              },
+              {
+                "name": "Power",
+                "$text": "Before deployment, select 1 enemy unit. Until the end of the game, this unit's Melee Attacks gain +1 to Hit and roll +2 dice against that enemy.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Stalwart",
+            "id": "0145-8bac-18c8-7d5e",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "\"A true knight is sworn to protect those who are weaker than himself, or die in the attempt.\"",
+                "typeId": "fc57-3aeb-b382-7d2c"
+              },
+              {"name": "Power", "$text": "This unit gains +2 to Morale Test rolls.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bronn - The Sellsword",
+        "id": "5350-d45e-c645-5c7e",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ab60-81bf-6f06-af91", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "New CategoryLink", "id": "71cb-14e2-488a-65c0", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"}
+        ],
+        "constraints": [
+          {
+            "id": "4e54-2056-8b47-c725",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 2}],
+        "profiles": [
+          {
+            "name": "Extra Incentive",
+            "id": "9751-f3ed-2b64-ffd7",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"I sell my sword, I don't give it away.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "Whiel you control Wealth Tactics Zone, this unit gains +1 Speed, rolls +2 Attack dice, and gains +2 to Morale Test rolls.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dreadfort Captain",
+        "id": "8c14-3ad4-d51a-9b7f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b8c6-83d7-87d0-a012", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "ab8b-33b2-2493-3f43", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 1}],
+        "infoLinks": [{"name": "Spread Fear", "id": "6b57-39c6-8d03-9092", "hidden": false, "targetId": "ab91-68f9-d096-999f", "type": "rule"}]
+      },
+      {
+        "name": "House Bolton Bastard's Girls",
+        "id": "a97f-fa80-c1ab-93a6",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "ae1b-0cb8-dbb5-2e06", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "New CategoryLink", "id": "c591-8fe1-4bf2-bae6", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 7}],
+        "infoLinks": [
+          {"name": "Master and Pets", "id": "78f5-3188-cdd0-3283", "hidden": false, "targetId": "96df-b554-7ae0-905a", "type": "rule"},
+          {"name": "Order: Sic'em", "id": "d678-e9f6-a438-620e", "hidden": false, "targetId": "c185-93fb-ea4a-be6e", "type": "rule"},
+          {"name": "Tracker's Bow", "id": "ec2a-9887-e354-da3c", "hidden": false, "targetId": "02fe-6de3-7a93-9c78", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "House Bolton Bastard's Girls",
+            "id": "8b3f-bdaf-9bd9-440b",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "6+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "5+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Tracker's Bow",
+            "id": "a1ce-75e8-c93f-46ab",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "4", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "4", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "4", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Blade and Fang",
+            "id": "4fd7-f0c5-366f-7bd0",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "6", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "6", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "e90b-e5c8-9a60-e4f2",
+            "description": "Trained to corner and bring down even heavy infantry, the Bastard's Girls are best utilized as flankers, or in pursuit of fleeing foes. While they do not possess the armor to counter a determined assault, enemies suffering from thier handler's wounding arrows make for easy prey. A fat bounty can be expected for handlers bringing down enemy commanders to await Ramsay Bolton's 'entertainments' following battle.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "House Bolton Blackguards",
+        "id": "613e-83cd-023e-2aa0",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry Unit", "id": "b30e-4cef-b820-6455", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "Mercenaries", "id": "0938-d44d-806c-911e", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 7}],
+        "infoLinks": [
+          {"name": "Spiked Flail", "id": "eeb7-c684-a6b9-e2e6", "hidden": false, "targetId": "2cd3-ab65-20cb-1ff8", "type": "rule"},
+          {"name": "Spiked Armor", "id": "ac65-5502-7983-d0b0", "hidden": false, "targetId": "ffee-5306-1117-4c00", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Spiked Flail",
+            "id": "ce67-ad68-40bc-6f88",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "5", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "4+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "House Bolton Black Guard",
+            "id": "e3e7-3d47-68a3-bd12",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "4", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "3+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "7+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "dd1d-8620-4b4b-dd6a",
+            "description": "The sheer ruthlessness of the Dreadfort Blackguards became infamous across all forces in the War of the Five Kings. Their vicious spiked flails rendered heavy shields only moderately effective at best, and House Bolton's reputation gave even hardened veterans pause when engaging them in battle. As the heaviest troops House Bolton fielded, the Blackguards could be relied upon as a solid vanguard, holding any position on the battlefield.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "House Bolton Cutthroats",
+        "id": "3d56-9159-af02-9967",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "75f0-b27a-2c6b-ab3b", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "New CategoryLink", "id": "21dc-c414-afc5-acab", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 5}],
+        "infoLinks": [{"name": "Spiked Mace", "id": "4653-c8e0-6a2e-60fb", "hidden": false, "targetId": "a792-418a-2a3b-79f3", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "House Bolton Cutthroats",
+            "id": "91e6-95d0-fa0d-9130",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "5+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "7+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Spiked Mace",
+            "id": "ffce-280a-b5f4-ba9c",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "8", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "6", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "4", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "a29a-7bf5-b673-d0a6",
+            "description": "While simply armored and lightly armed, Bolton Cutthorats enjoy a reputation for brutality and cold efficiency that allows them to strike panic on enemies with far more empensive armaments. Their spiked maces can easily dispatch enemies, but are more effective for the fear their brutality creates. Bolton Cutthroats make sport of downed foes or, worse for the opponent, take them prisoner to suffer a much more agonizing fate.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "House Bolton Flayed Men",
+        "id": "f281-ab1f-728d-932c",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "30a4-4b84-a38a-cc3f", "hidden": false, "primary": true, "targetId": "ea8e-f716-950b-84c2"},
+          {"name": "New CategoryLink", "id": "ed38-84c6-e8ef-9fa1", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 10}],
+        "infoLinks": [
+          {"name": "War Flail", "id": "8502-9055-cd0b-268a", "hidden": false, "targetId": "bd64-2d7b-e95e-a5ac", "type": "rule"},
+          {"name": "Cavalry", "id": "5f9e-806a-ab70-7b7b", "hidden": false, "targetId": "56ab-31ff-2708-c161", "type": "rule"},
+          {"name": "Spread Fear", "id": "09dc-51b5-2460-939c", "hidden": false, "targetId": "ab91-68f9-d096-999f", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "House Bolton Flayed Men",
+            "id": "b0bc-e987-01a4-8494",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "2+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "6+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "War Flail",
+            "id": "188a-2fb5-cd8b-a6ab",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "8", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "6", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "-", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "86e2-51ad-e76a-849d",
+            "description": "The so-called Flayed men rank among the heaviest cavalry employed by even the largest houses in the War of the Five Kings. With thick steel armor (blackened, of course), heavy shields, and even protective barding for horses, the Flayed Men are capable of truly devastating charges, and can endure in the line for a short time. Thier signature war flails render most defenses only marginal at best, but their terrifying visage remains their most vital weapon.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Lord Varys - The Spider",
+        "id": "2c5e-c781-5f63-a2ff",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3c5d-3971-b307-55e9", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "New CategoryLink", "id": "1e2f-e21b-47eb-0294", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "constraints": [
+          {
+            "id": "3fc1-3f06-d772-af55",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "Little Birds",
+            "id": "fbb8-1e37-a41e-2dc3",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Varys has ways of learning things that no man could know.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "Varys begins the game with 4 Order tokens on him.  When an enemy NCU claims a zone on the Tactics Board, you may expend 1 Order token on Varys and roll a die. On a 3+, choose 1: - That NCU loses all Abilities until the end of the round. - Cancel the effect of the claimed zone. This may be repeated if unsuccessful.",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Petyr Baelish - Littlefinger",
+        "id": "be7d-301e-c26a-bd76",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "afb0-76b6-67bc-9f6f", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"},
+          {"name": "New CategoryLink", "id": "8a68-e99e-0a9b-8b6c", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"}
+        ],
+        "constraints": [
+          {
+            "id": "acc7-d470-d17d-9f32",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "Master of the Game",
+            "id": "fc23-6be6-bb36-c2d8",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"In King's Landing, there are two sorts of people. The players and the pieces.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "When Petyr claims a zone on the Tactics Board, he may replace its effect with the effect of any unclaimed zone.",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ramsay Snow - Sadist",
+        "id": "0c09-9780-ed1d-5629",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "cab9-b103-f540-b334", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "5d5c-8782-bc5a-49c5", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "Infantry Unit", "id": "a9ee-87f9-ec78-e447", "hidden": false, "primary": false, "targetId": "7ae7-192e-b4b9-62de"}
+        ],
+        "constraints": [
+          {
+            "id": "7646-d203-b6f9-fc25",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "infoLinks": [{"name": "Affiliation: House Bolton", "id": "f3a7-a321-2d30-2493", "hidden": false, "targetId": "54f7-0f33-4c46-7acc", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c9f7-1c23-0cb7-6b40",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Cut Them Down!",
+            "id": "41c3-2b51-ecff-409e",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment Card",
+            "characteristics": [
+              {"name": "Description", "$text": "\"A naked man has few secrets, but a flayed man's got none.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "When an enemy engaged with this unit fails a Panic Test, they suffer 2 additional Wounds.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ramsay Snow - The Bastard of Bolton",
+        "id": "3c85-2c0c-58fc-a816",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "f865-f29e-07a0-486f", "hidden": false, "primary": false, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "0e0c-c212-b7dc-3873", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"}
+        ],
+        "constraints": [
+          {
+            "id": "afb0-11ce-599a-057d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "infoLinks": [{"name": "Affiliation: House Bolton", "id": "9570-e877-7986-7815", "hidden": false, "targetId": "54f7-0f33-4c46-7acc", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "9b41-fa40-807a-e13b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Order: Flay Them All!",
+            "id": "efd9-2378-447b-f28a",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment Card",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Snow, my wife called me before she ate her fingers, but I say Bolton.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "When an enemy engaged with this unit fails a Panic Test: 1 other enemy within Long Range of that unit must make a Panic Test.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Character",
+            "id": "8d00-a1d4-7ba2-4f18",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Cruel Methods - Our Blades Are Sharp - Sadistic Games", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Roose Bolton - Lord of the Dreadfort",
+        "id": "a460-9b95-5ac1-842a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "bb7f-cb82-4d7c-6332", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"},
+          {"name": "Commander", "id": "2e1a-143d-c1a6-e19f", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"}
+        ],
+        "constraints": [
+          {
+            "id": "cb37-2fa8-9828-18e2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "332a-508c-df39-956c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Horrific Rumors",
+            "id": "7f4d-a33e-5a8d-78f1",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"That man scares me.\" - Robb Stark", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "When Roose claims a zone on the Tactics Board, you may replace that zone's effect with: Up to 2 enemy Combat Units become Panicked.",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          },
+          {
+            "name": "Character",
+            "id": "0253-ff93-67e6-efdb",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- A Flayed Man Has No Secrets - Calculated Cruelty - Fear Keeps A Man Alive", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Roose Bolton - The Leech Lord",
+        "id": "0bce-1255-11a5-1871",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8e81-9243-91c1-1a2f", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "Mercenaries", "id": "6818-33a6-ce7d-5f9f", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"}
+        ],
+        "constraints": [
+          {
+            "id": "c720-851a-1a55-7c63",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "infoLinks": [
+          {"name": "Affiliation: House Bolton", "id": "359a-406d-1531-bfa9", "hidden": false, "targetId": "54f7-0f33-4c46-7acc", "type": "rule"},
+          {"name": "Ferocious Assault", "id": "5ab7-a743-f720-f63d", "hidden": false, "targetId": "7a4e-a35b-ddc8-014a", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "24f6-a6db-eed2-632a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Prey On Fear",
+            "id": "d3ee-6063-0d78-c49b",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment Card",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Fear is what keeps a man alive in this world of treachery and deceit.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "Each time an enemy engaged with this unit fails a Panic Test, this unit may restore up to 2 Wounds.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Theon Greyjoy - Reek",
+        "id": "70ef-6753-b2b0-1731",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "70a8-49d1-7a71-8fdd", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "f39f-3e0b-a928-b156", "hidden": false, "primary": false, "targetId": "bebb-415e-f8a1-2190"}
+        ],
+        "constraints": [
+          {
+            "id": "8432-2405-d98e-a7d5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "modifiers": [
+          {
+            "field": "name",
+            "type": "append",
+            "value": "(Requires Ramsay Snow)",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9b41-fa40-807a-e13b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c9f7-1c23-0cb7-6b40",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Order: Set an Example",
+            "id": "f691-0ade-4c0a-f661",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"I'm not him, I'm not the turncloak, he died at Winterfell. My name is Reek!\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "When this unit activates, 1 enemy within Long Range becomes Panicked. Roll a die. On a 5+, kill Theon (moving 1 model from the back of the unit to fill his slot).",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Character",
+            "id": "388f-84e6-da61-9be1",
+            "description": "May only be fielded in an army that includes Ramsay Snow, and must be Attached to his unit (ignoring usual Attachment restrictions).",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}
