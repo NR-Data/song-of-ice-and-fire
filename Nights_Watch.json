@@ -1,0 +1,843 @@
+{
+  "catalogue": {
+    "name": "Night's Watch",
+    "id": "13c3-f466-60af-6992",
+    "authorContact": "jmsadler@gmail.com",
+    "authorName": "Jeremy Sadler",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "2264-d446-544f-f0ab",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "categoryEntries": [{"name": "Night's Watch", "id": "6647-a675-bec1-e23d", "hidden": false}],
+    "entryLinks": [
+      {"name": "Watch Captain", "id": "27cc-aa4a-2bed-4754", "hidden": false, "targetId": "53a1-a2f7-2039-ce1f", "type": "selectionEntry"},
+      {"name": "Brienne - Maid of Tarth", "id": "e27b-bd8f-ec37-2489", "hidden": false, "targetId": "9397-5e0a-323b-772c", "type": "selectionEntry"},
+      {"name": "Bronn - The Sellsword", "id": "4600-e490-f963-bd85", "hidden": false, "targetId": "dd99-2b45-ee55-f48f", "type": "selectionEntry"},
+      {"name": "Dreadfort Captain", "id": "cbb2-4e74-8458-322e", "hidden": false, "targetId": "d21f-61ff-f81f-e6bb", "type": "selectionEntry"},
+      {"name": "House Bolton Bastard's Girls", "id": "74fb-629f-be89-15ce", "hidden": false, "targetId": "68b1-4176-1eab-1b98", "type": "selectionEntry"},
+      {"name": "House Bolton Blackguards", "id": "b8da-7f52-a9df-f7df", "hidden": false, "targetId": "701c-9c88-a9ce-a01a", "type": "selectionEntry"},
+      {"name": "House Bolton Cutthroats", "id": "0f7a-6c01-ebba-18aa", "hidden": false, "targetId": "4736-569b-81e4-13e8", "type": "selectionEntry"},
+      {"name": "House Bolton Flayed Men", "id": "eb14-0c70-0b7c-99e6", "hidden": false, "targetId": "c9f7-9e3a-65c3-d1be", "type": "selectionEntry"},
+      {"name": "Lord Varys - The Spider", "id": "e5d0-b5fd-334a-cbc5", "hidden": false, "targetId": "737f-b44f-174b-c943", "type": "selectionEntry"},
+      {"name": "Petyr Baelish - Littlefinger", "id": "6b2d-edfb-604f-e129", "hidden": false, "targetId": "9209-90d9-c752-1843", "type": "selectionEntry"},
+      {"name": "Ramsay Snow - Sadist", "id": "2733-c389-89e7-39d5", "hidden": false, "targetId": "9b41-fa40-807a-e13b", "type": "selectionEntry"}
+    ],
+    "sharedRules": [
+      {"name": "Unbreakable Vows", "id": "5a89-baee-99fa-eb18", "description": "This unit may have 2 attached Vows.", "hidden": false},
+      {
+        "name": "Greatsword",
+        "id": "771f-76b0-7235-1fd6",
+        "description": "- Critical Blow (Rolls of 6 cause 2 Hits)\n- Sundering (Defenders suffer -1 to their Defense Save rolls)",
+        "hidden": false
+      },
+      {"name": "Short Bow", "id": "a604-8835-83eb-c481", "description": "- Short Range", "hidden": false},
+      {"name": "Swift Strike", "id": "f147-8c5a-2cc1-8e28", "hidden": false},
+      {
+        "name": "Order: Mark Target",
+        "id": "2ac7-ac81-b0cc-f329",
+        "description": "Start of a friendly turn: 1 enemy within Line of Sight and Long Range becomes Vulnerable.",
+        "hidden": false
+      },
+      {"name": "Recurve Bow", "id": "ecbf-0cbc-2e79-3efc", "description": "- Short Range", "hidden": false},
+      {
+        "name": "Order: Counterattack",
+        "id": "5a9b-25f7-2a20-1a18",
+        "description": "When this unit is attacked with melee, after Attack dice are rolled:\nFor each blocked Hit, the attacker suffers 1 automatic Hit.",
+        "hidden": false
+      },
+      {
+        "name": "Order: Indomitable",
+        "id": "02cf-789b-91aa-778a",
+        "description": "When this unit passes a Morale Test:\nThis unit may restore up to D3 Wounds.",
+        "hidden": false
+      },
+      {
+        "name": "Direwolf",
+        "id": "a559-1afa-8c95-c2c1",
+        "description": "This model has 2 Wounds.\nAt the start of this model's activation, it may make a free Maneuver action.",
+        "hidden": false
+      },
+      {
+        "name": "Silent Predator",
+        "id": "be77-173a-56a8-2177",
+        "description": "When this attack is selected, enemies may not play Tactics cards for the rest of the turn. Enemies do not get Defense Saves against this attack.",
+        "hidden": false
+      },
+      {
+        "name": "Opportunist",
+        "id": "8b0d-30d5-b6a7-9b60",
+        "description": "If this unit attacks an enemy that has not activated this round, it may re-roll any misses.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Watch Captain",
+        "id": "53a1-a2f7-2039-ce1f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Unit Attachment", "id": "aebf-2cd7-4b93-7610", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "Night's Watch", "id": "2f2a-81b6-f4c0-527c", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 2}],
+        "infoLinks": [{"name": "Unbreakable Vows", "id": "c8b1-06e1-253e-b4e3", "hidden": false, "targetId": "5a89-baee-99fa-eb18", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "And Now My Watch Begins",
+            "id": "8b31-341c-7ba9-87bf",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "Watch Captain", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "At the start of Round 1, reveal the top 3 cards of your Tactics Deck. You may select 1 Vow card from among them and attach it to this unit. Return the rest to your Tactics Deck and then shuffle",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sworn Brothers",
+        "id": "5798-d4e3-bc9b-e590",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry Unit", "id": "339b-030d-276f-7405", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "Night's Watch", "id": "d49f-ae5e-fceb-e2e4", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 6}],
+        "infoLinks": [{"name": "Greatsword", "id": "1e6f-58f7-993a-31c1", "hidden": false, "targetId": "771f-76b0-7235-1fd6", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Greatsword",
+            "id": "b850-6f8f-e7d6-fb44",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "5", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "4", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Sworn Brothers",
+            "id": "cd37-cf30-49b2-1f38",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "4+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "6+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "e0dd-9abd-087e-cf76",
+            "description": "As the mainstay of the Night's Watch forces, the Sworn Brothers face Wildlings, and other northern terrors with stoicism and reserve born of long-training and solid gear. Indeed, having their own forges and smiths allows the average Brother a better kit than the average foot soldier belonging to most great houses (except House Lannister, of course). Sworn Brothers can be relied upon to hold the line, almost regardless of the odds.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Ranger Hunters",
+        "id": "019a-e0fd-c55a-f648",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Infantry Unit", "id": "d25a-6c5d-283a-f258", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "Night's Watch", "id": "9953-1876-5385-4fa9", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 8}],
+        "infoLinks": [
+          {"name": "Short Bow", "id": "0d33-7474-db3d-2e62", "hidden": false, "targetId": "a604-8835-83eb-c481", "type": "rule"},
+          {"name": "Swift Strike", "id": "5b1b-11a6-da57-d5c2", "hidden": false, "targetId": "f147-8c5a-2cc1-8e28", "type": "rule"},
+          {"name": "Opportunist", "id": "5003-50d5-20e0-ce9e", "hidden": false, "targetId": "8b0d-30d5-b6a7-9b60", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Short Bow",
+            "id": "7633-fffd-d6f8-a315",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "6", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "5", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Swift Strike",
+            "id": "72c4-82fb-6100-8c0d",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "6", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "5", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Ranger Hunters",
+            "id": "5cbc-7f0c-fc97-4733",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "6", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "5+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "6+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "0a32-3920-4e12-10ca",
+            "description": "Often working hand-in-hand with Ranger Trackers, Ranger Hunters specialize in eliminating critical targets on the battlefield. While stealth is rarely an option in open battle, Hunters strike suddenly, exploiting weakened or vulnerable enemies, often eliminating them to a man before any serious resistance can mount. However, as with all light infantry, being bogged down in an extended melee can prove fatal, something any commander should avoid.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Veterans of the Watch",
+        "id": "c7d5-2576-dc27-f996",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry Unit", "id": "867a-da60-53de-5051", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "Night's Watch", "id": "d73d-5f37-ea10-5db6", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 8}],
+        "infoLinks": [{"name": "Order: Counterattack", "id": "d1f1-ce2a-7920-1e30", "hidden": false, "targetId": "5a9b-25f7-2a20-1a18", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Veterans of the Watch",
+            "id": "f029-89b7-de9d-7d4f",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "3", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "5", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Dual Weapons",
+            "id": "f9a6-aead-f7a3-31e3",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "8", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "7", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "6", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jeor Mormont - 997th Lord Commander",
+        "id": "d666-68dd-236d-796c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Commander", "id": "cd05-5576-ad6f-71b1", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"},
+          {"name": "Night's Watch", "id": "2536-a894-16ce-d99d", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "constraints": [
+          {
+            "id": "a1ff-91ca-44af-3f87",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "profiles": [
+          {
+            "name": "Jeor Mormont - 997th Lord Commander",
+            "id": "da40-8d3b-ed95-7321",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Duty to the Watch - Night Gathers... - Unwavering Conviction", "typeId": "edf4-ce00-def2-83b6"}]
+          },
+          {
+            "name": "Oath of the Black",
+            "id": "9cd6-ec68-bca6-7a7e",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "\"When dead men come hunting in the night, do you think it matters who sits the Iron Throne?\"",
+                "typeId": "fc57-3aeb-b382-7d2c"
+              },
+              {
+                "name": "Power",
+                "$text": "When this unit activates, it may discard an attached Vow Tactic Card and replace it with a different Vow Tactic Card from your discard pile.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jon Snow - 998th Lord Commander",
+        "id": "a8c7-51c7-9657-8f1c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Commander", "id": "2f21-ec34-a72f-0cf6", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"},
+          {"name": "Night's Watch", "id": "4a6d-7006-cbfe-674f", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "constraints": [
+          {
+            "id": "f961-de14-43cb-b3a7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "profiles": [
+          {
+            "name": "Jon Snow - 998th Lord Commander",
+            "id": "03ff-9a33-a11b-ad4e",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- For the Watch! - It Shall Not End Until My Death - Stand United, Brothers!", "typeId": "edf4-ce00-def2-83b6"}]
+          },
+          {
+            "name": "Bond: Ghost",
+            "id": "92cb-e3d7-1199-ec95",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"There's no shame in fear, my father told me, what matters is how we face it.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "When this unit activates, Ghost may activate before or after this unit takes its action.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aemon - Maester of Castle Black",
+        "id": "cb4b-405d-0cf4-8740",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Night's Watch", "id": "c9ea-8822-25b8-8c57", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"},
+          {"name": "Non-Combatant Unit", "id": "0ce1-9eef-5463-6547", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "constraints": [
+          {
+            "id": "9c58-37ed-ed01-e106",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "Aemon - Maester of Castle Black",
+            "id": "eea2-7ea2-892b-0d3e",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Knowledge is a weapon, Jon. Arm yourself well before you ride forth to battle.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {"name": "Power", "typeId": "095c-6bd5-1bee-1cf8"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Maester's Healing",
+            "id": "e46f-a676-5458-ddcf",
+            "description": "When Aemon claims a zone on the Tactics Board, you may restore up to 1 Wound to a friendly unit +1 additional Wound per destroyed rank in that unit.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Bowen Marsh - First Steward",
+        "id": "5b5b-09c4-286e-89ba",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Non-Combatant Unit", "id": "7f03-eb44-fa54-4798", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"},
+          {"name": "Night's Watch", "id": "7169-c8e6-216c-4841", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "constraints": [
+          {
+            "id": "3d47-133d-de12-2839",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "profiles": [
+          {
+            "name": "Bowen Marsh - First Steward",
+            "id": "edd9-5d03-d373-80de",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [{"name": "Description", "$text": "\"For the Watch.\"", "typeId": "6d08-9f7d-1100-7e00"}, {"name": "Power", "typeId": "095c-6bd5-1bee-1cf8"}]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Counts and Measures",
+            "id": "8054-899e-d104-8934",
+            "description": "When Bowen claims a zone on the Tactics Board, you may look at the top 2 cards of your Tactics Deck. Place 1 of those cards in your hand and the other on the bottom of your Tactics Deck.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Ghost",
+        "id": "361a-1222-1fa0-a5b5",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Monster", "id": "51db-c517-b76a-4bda", "hidden": false, "primary": false, "targetId": "046c-b849-cb68-2b74"},
+          {"name": "Night's Watch", "id": "234a-3313-d1ec-82ac", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "constraints": [
+          {
+            "id": "3cac-048e-57fe-1044",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "infoLinks": [
+          {"name": "Direwolf", "id": "270b-1e29-a8d3-cc76", "hidden": false, "targetId": "a559-1afa-8c95-c2c1", "type": "rule"},
+          {"name": "Silent Predator", "id": "b3d4-72a5-d55a-f147", "hidden": false, "targetId": "be77-173a-56a8-2177", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "name",
+            "type": "append",
+            "value": "(Requires Jon Snow)",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a8c7-51c7-9657-8f1c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Silent Predator",
+            "id": "cfef-1f77-a530-234e",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "2", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "2+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Ghost",
+            "id": "42b1-9084-1165-517a",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "6", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "3+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "2+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "bfa8-d410-b8b6-7add",
+            "description": "The albino direwolf known as Ghost could not be more aptly named, trailing in Jon Snow's wake like an ominous shadow. On the battlefield, Ghost ranges more or less freely, having an instinctive grasp of his master's will. Capable of shocking speed and rending through armor with his powerful jaws, Ghost operates best as a flanker or in pursuit of broken troops. Indeed, the sight of a charging direwolf is enough to shake most men to their core.",
+            "hidden": false
+          },
+          {"name": "Character", "id": "a564-7f4d-a875-7186", "description": "May only fielded in an army including Jon Snow.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Craster - Ally of Convenience",
+        "id": "d3ed-b182-dbea-f261",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Non-Combatant Unit", "id": "1ae5-eba2-1e88-b7e8", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"},
+          {"name": "Night's Watch", "id": "835e-3153-9cbc-4044", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"},
+          {"name": "Free Folk", "id": "7540-6f07-f217-2375", "hidden": false, "primary": false, "targetId": "f8b9-2189-64a5-cac0"}
+        ],
+        "constraints": [
+          {
+            "id": "085a-0e99-28c4-04ad",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "profiles": [
+          {
+            "name": "Craster - Ally of Convenience",
+            "id": "663b-403e-4777-f4d3",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"He's never turned a ranger away from his fire, nor does he love Mance Rayder...\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {"name": "Power", "typeId": "095c-6bd5-1bee-1cf8"}
+            ]
+          }
+        ],
+        "rules": [{"name": "Character", "id": "e817-8026-7e0c-0594", "description": "Craster may be included in a Night's Watch army.", "hidden": false}]
+      },
+      {
+        "name": "Ranger Trackers",
+        "id": "9841-44bf-e6ca-b342",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Night's Watch", "id": "ad85-5242-609f-d495", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"},
+          {"name": "Cavalry Unit", "id": "d725-68b1-4e22-fad0", "hidden": false, "primary": true, "targetId": "ea8e-f716-950b-84c2"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 6}],
+        "infoLinks": [
+          {"name": "Order: Mark Target", "id": "eaf2-d1eb-fb8b-dd20", "hidden": false, "targetId": "2ac7-ac81-b0cc-f329", "type": "rule"},
+          {"name": "Cavalry", "id": "14eb-e19b-8734-9f31", "hidden": false, "targetId": "56ab-31ff-2708-c161", "type": "rule"},
+          {"name": "Recurve Bow", "id": "00f4-2f8c-98ee-049b", "hidden": false, "targetId": "ecbf-0cbc-2e79-3efc", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Recurve Bow",
+            "id": "cf69-41ff-e838-5c43",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "4", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Short Sword",
+            "id": "5b3f-9be5-f1b7-8d24",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "6", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "3", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "-", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "4+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Ranger Trackers",
+            "id": "2a57-0c49-b179-96fc",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "6", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "5+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "6+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "bd79-81e2-03cb-183a",
+            "description": "The Night's Watch Rangers employ many units of varying skill sets, but their eyes are embodied by the Trackers. As dedicated scouting cavalry, Trackers are charged with providing intelligence on enemy strength, numbers, and location. On the battlefield their expertise extends to determining enemies in vulnerable positions. Wise commanders will heed their counsel, and position troops to exploit such weaknesses accordingly.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Jon Snow - Lord Snow",
+        "id": "dec8-71f8-6931-10fb",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Night's Watch", "id": "ea97-c235-88ef-bc1b", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"},
+          {"name": "Unit Attachment", "id": "ef03-804c-111d-69c9", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"}
+        ],
+        "constraints": [
+          {
+            "id": "4708-529a-f823-2319",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "profiles": [
+          {
+            "name": "Bond: Ghost",
+            "id": "ddd4-dfbc-fe2c-959f",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"There's no shame in fear, my father told me, what matters is how we face it.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "When this unit activates, Ghost may activate before or after this unit takes its action.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Boldness and Courage",
+            "id": "3927-8668-1227-8381",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"The only gods he worshipped were honor and duty.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "When this unit makes a Melee Attack, it is always treated as having 1 additional rank. If it already has full ranks, it rolls +2 attack dice.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jeor Mormont - The Old Bear",
+        "id": "d759-885d-f2fc-ec94",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Night's Watch", "id": "079c-560c-6177-67c2", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"},
+          {"name": "Non-Combatant Unit", "id": "3a7c-bfb5-b36b-5ce2", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "constraints": [
+          {
+            "id": "96a7-53ea-4316-91a9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "Jeor Mormont - The Old Bear",
+            "id": "3469-8b3e-3cab-988c",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"The Wall was made to guard the realms of men... and not against other men.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {"name": "Power", "typeId": "095c-6bd5-1bee-1cf8"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Oath of Duty",
+            "id": "a32d-fe5e-0817-2472",
+            "description": "Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round.)\nWhile Influencing a unit, you count as controlling all Tactics Zones for any Vow effects on that unit.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Builder Scorpion Crew",
+        "id": "5260-f1f1-e97c-d9ca",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "War Machine", "id": "dab1-ce7e-57d2-33b7", "hidden": false, "primary": true, "targetId": "1c00-c38c-112d-04d9"},
+          {"name": "Night's Watch", "id": "505d-5066-8c49-af2d", "hidden": false, "primary": false, "targetId": "6647-a675-bec1-e23d"}
+        ],
+        "constraints": [
+          {
+            "id": "673e-d0a3-aeed-c005",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 7}],
+        "profiles": [
+          {
+            "name": "Builder Scorpion Crew",
+            "id": "d386-5c4e-52b7-81b8",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "4", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "5+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "-", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Bolt Thrower (Volley Fire)",
+            "id": "de6d-07dd-499f-2a47",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "3", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Builder Scorpion Crew",
+            "id": "66e6-61d7-2dc6-5f4e",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "1", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "2+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "6fab-ebe7-38a4-5bdb",
+            "description": "The Night's Watch Builders are known for their ingenuity, and none embodies this more than the Builder Scorpion Crew. With just a few specialized parts, and enough available timer, the Crew can construct a mobile Scorpion, capable of firing massive bolts at long range and with surpirising accuracy. Entire ranks can be cut down by a single projective. However the Scorpion itself requires time to reposition, and it moves very slowly.",
+            "hidden": false
+          },
+          {
+            "name": "War Machine",
+            "id": "7741-155c-6155-be06",
+            "description": "This model has 6 wounds.\nThis model never makes Morale Tests, cannot Charge or Retreat, and cannot gain Condition Tokens.",
+            "hidden": false
+          },
+          {
+            "name": "Bolt Thrower",
+            "id": "fba6-777e-b0d1-f66e",
+            "description": "- Long Range\n- May not Shift before Attack.\n- Sundering (Defenders suffer -2 to Defense Save rolls)\n- Volley: each success deals 3 hits.\n- Single: If this generates any Hits on a Solo unit, instead of rolling Wound Dice, they suffer D3 +1 Wounds.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}
