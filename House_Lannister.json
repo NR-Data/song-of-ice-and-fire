@@ -1,0 +1,1988 @@
+{
+  "catalogue": {
+    "name": "House Lannister",
+    "id": "f8ae-c5a8-459f-437a",
+    "authorContact": "jmsadler@gmail.com",
+    "authorName": "Jeremy Sadler",
+    "authorUrl": "https://www.facebook.com/groups/ASOIAFTMG",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "2264-d446-544f-f0ab",
+    "gameSystemRevision": 1,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {"name": "Knights of Casterly Rock", "id": "d743-0d99-7006-67c9", "hidden": false, "targetId": "b842-189d-a02d-9626", "type": "selectionEntry"},
+      {"name": "Lannister Guards", "id": "4cec-71bb-cc6e-ac66", "hidden": false, "targetId": "0ca3-de68-5970-5bd2", "type": "selectionEntry"},
+      {"name": "Lannister Halberdiers", "id": "8858-073e-5021-90a6", "hidden": false, "targetId": "0f24-0484-d3e5-858a", "type": "selectionEntry"},
+      {"name": "The Mountain's Men", "id": "252e-1b19-ef8a-71b1", "hidden": false, "targetId": "afe5-a5a6-1759-606d", "type": "selectionEntry"},
+      {
+        "name": "Cersei Lannister - Queen Regent",
+        "id": "1927-d0b1-96dd-029f",
+        "hidden": false,
+        "targetId": "ae0f-95b8-3eaf-b79f",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "f61c-f3cf-9185-ac8d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "The High Sparrow",
+        "id": "c8cf-5818-1dc3-e0e2",
+        "hidden": false,
+        "targetId": "da23-29ab-3ad2-fcfe",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b8c3-9df6-d254-8d38",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Tyrion Lannister - The Imp",
+        "id": "bd6a-6283-a3de-febf",
+        "hidden": false,
+        "targetId": "c230-a7af-3c02-7457",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "4c55-badf-eef7-46cd",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "2a58-b933-994a-2624",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "e1d0-c08c-05ee-5942",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tywin Lannister - The Great Lion",
+        "id": "2943-1421-2d51-8ecb",
+        "hidden": false,
+        "targetId": "9c1c-c50c-a915-4298",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "4958-dfa5-387a-6959",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "37e2-35e0-e85f-46ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Assault Veteran", "id": "dd25-7bb8-a582-8d6e", "hidden": false, "targetId": "eb61-d8ee-bb5a-eb4d", "type": "selectionEntry"},
+      {"name": "Guard Captain", "id": "5444-8c0e-150b-29bc", "hidden": false, "targetId": "fab5-841e-87a8-2728", "type": "selectionEntry"},
+      {
+        "name": "Sandor Clegane - The Hound",
+        "id": "86b6-0c06-276d-8b08",
+        "hidden": false,
+        "targetId": "9a6d-9780-747f-fa58",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "2201-7551-9e68-b105",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - Lord Tywin's Mad Dog",
+        "id": "c050-1127-373f-b64d",
+        "hidden": false,
+        "targetId": "f3ee-391c-3736-6a50",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "e4ff-7d0b-e1ee-5519",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "843e-6a6b-f7c1-7d7f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "a876-e171-221a-3723",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "c27f-f0ef-7286-1c26",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - The Mountain",
+        "id": "a876-e171-221a-3723",
+        "hidden": false,
+        "targetId": "8967-3885-9024-8e22",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "313c-aadd-63af-efc4",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "843e-6a6b-f7c1-7d7f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "c050-1127-373f-b64d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "c27f-f0ef-7286-1c26",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jaime Lannister - The Kingslayer",
+        "id": "1ece-598b-09ca-b103",
+        "hidden": false,
+        "targetId": "ca2d-92a6-6e4e-28a5",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "eeca-31e5-dbc1-2423",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "605e-0c92-4bab-04c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "7d56-5391-f4ed-ecb1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tywin Lannister - Lord of Casterly Rock",
+        "id": "38ea-0411-d161-f50b",
+        "hidden": false,
+        "targetId": "37e2-35e0-e85f-46ae",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "58f1-6bb9-b0ff-c2ea",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2943-1421-2d51-8ecb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jaime Lannister - The Young Lion",
+        "id": "9a54-b8bc-9562-8ad6",
+        "hidden": false,
+        "targetId": "7d56-5391-f4ed-ecb1",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ba33-4cdb-309a-f67a",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "605e-0c92-4bab-04c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ca2d-92a6-6e4e-28a5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Lannister Crossbowmen", "id": "009c-e751-d1af-c11b", "hidden": false, "targetId": "d200-fe67-989b-c3d7", "type": "selectionEntry"},
+      {
+        "name": "Tyrion Lannister - Halfman",
+        "id": "2a58-b933-994a-2624",
+        "hidden": false,
+        "targetId": "d89c-d592-f8d0-4e18",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "80f6-fe79-fe0b-999b",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bd6a-6283-a3de-febf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "e1d0-c08c-05ee-5942",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pycelle - Grand Maester",
+        "id": "5ae6-95e1-9a6b-504a",
+        "hidden": false,
+        "targetId": "379f-2f77-67fd-6da0",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "d360-62c0-ac55-647e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - The Mountain That Rides",
+        "id": "d1be-29d2-8e48-916b",
+        "hidden": false,
+        "targetId": "c27f-f0ef-7286-1c26",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "b146-f950-a613-d80f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "843e-6a6b-f7c1-7d7f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "a876-e171-221a-3723",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "f3ee-391c-3736-6a50",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tyrion Lannister - The Giant of Lannister",
+        "id": "e1d0-c08c-05ee-5942",
+        "hidden": false,
+        "targetId": "5455-f7cc-24df-0b86",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "4abc-5201-0707-2192",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "bd6a-6283-a3de-febf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "2a58-b933-994a-2624",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - Mounted Behemoth",
+        "id": "732c-7d8c-b592-47ad",
+        "hidden": false,
+        "targetId": "843e-6a6b-f7c1-7d7f",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "7f1d-c128-d306-226b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "8967-3885-9024-8e22",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "c050-1127-373f-b64d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "c27f-f0ef-7286-1c26",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Brienne - Maid of Tarth", "id": "68ed-8bdc-c6d1-395b", "hidden": false, "targetId": "9397-5e0a-323b-772c", "type": "selectionEntry"},
+      {"name": "Theon Greyjoy - Reek", "id": "eda0-57c6-c773-cdef", "hidden": false, "targetId": "9fcb-17d0-6691-0903", "type": "selectionEntry"},
+      {
+        "name": "Roose Bolton - The Leech Lord",
+        "id": "3649-e04a-8fff-9cd7",
+        "hidden": false,
+        "targetId": "332a-508c-df39-956c",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ac21-1441-9867-39c5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Roose Bolton - Lord of the Dreadfort",
+        "id": "acb2-9520-5af6-d3e4",
+        "hidden": false,
+        "targetId": "24f6-a6db-eed2-632a",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "51d3-33e4-8d82-98de",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Ramsay Snow - The Bastard of Bolton",
+        "id": "654e-e042-7dc2-f55c",
+        "hidden": false,
+        "targetId": "c9f7-1c23-0cb7-6b40",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "ace4-c038-b19b-c2a5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Ramsay Snow - Sadist",
+        "id": "a6ce-91e4-4fb7-9da7",
+        "hidden": false,
+        "targetId": "9b41-fa40-807a-e13b",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "39aa-58ca-d7ae-1e87",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Petyr Baelish - Littlefinger",
+        "id": "268a-13b3-5814-29c4",
+        "hidden": false,
+        "targetId": "9209-90d9-c752-1843",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "381f-af4c-5a65-be34",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Lord Varys - The Spider",
+        "id": "2ed2-7613-e30a-c039",
+        "hidden": false,
+        "targetId": "737f-b44f-174b-c943",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "6233-9426-5411-141c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {"name": "House Bolton Flayed Men", "id": "e5f2-b4cd-e698-cabf", "hidden": false, "targetId": "c9f7-9e3a-65c3-d1be", "type": "selectionEntry"},
+      {"name": "House Bolton Cutthroats", "id": "f08e-dcca-68f2-8203", "hidden": false, "targetId": "4736-569b-81e4-13e8", "type": "selectionEntry"},
+      {"name": "House Bolton Blackguards", "id": "1d9b-079b-5116-5855", "hidden": false, "targetId": "701c-9c88-a9ce-a01a", "type": "selectionEntry"},
+      {"name": "House Bolton Bastard's Girls", "id": "91eb-9351-4391-c6bf", "hidden": false, "targetId": "68b1-4176-1eab-1b98", "type": "selectionEntry"},
+      {"name": "Dreadfort Captain", "id": "be6f-8e75-69fc-58d9", "hidden": false, "targetId": "d21f-61ff-f81f-e6bb", "type": "selectionEntry"},
+      {"name": "Bronn - The Sellsword", "id": "8c8a-aa57-4831-ec68", "hidden": false, "targetId": "dd99-2b45-ee55-f48f", "type": "selectionEntry"},
+      {
+        "name": "Jaime Lannister - Maimed Hostage",
+        "id": "8e2b-7659-8f90-e1d5",
+        "hidden": false,
+        "targetId": "605e-0c92-4bab-04c8",
+        "type": "selectionEntry",
+        "constraints": [
+          {
+            "id": "3dd4-509e-e1be-8702",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "7d56-5391-f4ed-ecb1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "ca2d-92a6-6e4e-28a5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Champion of the Faith", "id": "9993-db92-69d2-8c8e", "hidden": false, "targetId": "90d5-ffec-d511-ee32", "type": "selectionEntry"}
+    ],
+    "forceEntries": [
+      {
+        "name": "House Lannister",
+        "id": "12bd-9dd4-d317-0438",
+        "hidden": false,
+        "categoryLinks": [
+          {"name": "Cavalry", "id": "7065-afe9-e28c-3335", "hidden": false, "primary": false, "targetId": "ea8e-f716-950b-84c2"},
+          {"name": "Infantry", "id": "3caa-c5ec-545b-9edf", "hidden": false, "primary": false, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "NCU", "id": "df35-4295-7fa1-fd08", "hidden": false, "primary": false, "targetId": "9c52-387e-c59a-a747"},
+          {"name": "Attachment Card", "id": "81c5-c9e7-6c9a-9509", "hidden": false, "primary": false, "targetId": "2460-6433-340e-5689"},
+          {"name": "Captain", "id": "c8ee-4699-5209-2dfd", "hidden": false, "primary": false, "targetId": "2541-1bd5-5d40-1192"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Lance",
+        "id": "757a-979c-fe78-aac5",
+        "description": "When Charging, this attack rolls +3 dice, and gains Critical Blow (Rolls of 6 deal 2 Hits) and Sundering (Defenders suffer -1 to their Defense Save rolls.)",
+        "hidden": false
+      },
+      {
+        "name": "Lannister Supremacy",
+        "id": "b6ed-72b9-fb22-92be",
+        "description": "If this unit is attacked and passes its Panic Test, the attacker must make a Panic Test with -2 to their roll.",
+        "hidden": false
+      },
+      {"name": "Halberd", "id": "7192-d46d-ac00-c683", "description": "- Sundering (Defenders suffer -1 to their Defense Save rolls).", "hidden": false},
+      {
+        "name": "Order: Set For Charge",
+        "id": "1f4b-d1f2-1262-826a",
+        "description": "If this unit is unengaged and charged from the Front: This unit  may make 1 Attack action against that enemy before they resolve their Charge attack.",
+        "hidden": false
+      },
+      {"name": "Ferocious Charge", "id": "afb7-3364-a5b7-d22b", "description": "Enemies charged by this unit become Panicked.", "hidden": false},
+      {"name": "Crossbow", "id": "b17f-465c-ebc3-6117", "description": "- Long Range\n- Sundering (Defenders suffer -1 to Defense Save rolls).", "hidden": false},
+      {
+        "name": "Cleaving Blows",
+        "id": "8021-4b67-1762-4d93",
+        "description": "- Critical Blow (Rolls of 6 deal 2 Hits).\n- Defenders do not get Defense Saves.\n- Charged enemies become Panicked.",
+        "hidden": false
+      },
+      {"name": "Affiliation: House Clegane", "id": "1ec0-8118-a6bb-6694", "description": "This unit counts as a House Clegane unit.", "hidden": false},
+      {
+        "name": "Unstoppable Fury",
+        "id": "c627-460b-fd0a-56f8",
+        "description": "- Charged enemies become Panicked.\n- When this unit makes a Melee Attack, it deals D3 additional Wounds.",
+        "hidden": false
+      },
+      {
+        "name": "Vicious Methods",
+        "id": "7287-821e-bf63-8a30",
+        "description": "- Critical Blow (Rolls of 6 cause 2 Hits).\n- Vicious (Defenders suffer -2 to their Panic Test).",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Knights of Casterly Rock",
+        "id": "b842-189d-a02d-9626",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "bdb4-f40c-0eb1-f7a4", "hidden": false, "primary": true, "targetId": "ea8e-f716-950b-84c2"},
+          {"name": "New CategoryLink", "id": "c44a-fb3c-e46d-0ff7", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 8}],
+        "infoLinks": [
+          {"name": "Lance", "id": "038d-ba17-5088-c76e", "hidden": false, "targetId": "757a-979c-fe78-aac5", "type": "rule"},
+          {"name": "Cavalry", "id": "b784-470b-a390-ad60", "hidden": false, "targetId": "56ab-31ff-2708-c161", "type": "rule"},
+          {"name": "Lannister Supremacy", "id": "dad4-3d3a-e8fb-247d", "hidden": false, "targetId": "b6ed-72b9-fb22-92be", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Knights of Casterly Rock",
+            "id": "93d7-2065-3a1f-5ab2",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "3+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "6+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Lance",
+            "id": "f153-142a-5877-a5ff",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "6", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "3", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "-", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "ece8-b58a-2590-e0a2",
+            "description": "Expensively armed, expensively armored, and trained to perfection, the Knights of Casterly rock bring unparalleled speed and lethality to the Lion banner. Few enemies are equipped to withstand a charge from these heavily armored juggernauts, and fewer still match their speed. While they can be bogged down in melee against determined infantry, few commanders let them remain so encumbered for long.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Lannister Guardsmen",
+        "id": "0ca3-de68-5970-5bd2",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1542-f9a0-fbfb-b670", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "New CategoryLink", "id": "6d73-54a4-e734-fa5a", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 5}],
+        "infoLinks": [{"name": "Lannister Supremacy", "id": "896a-ea1d-30df-d6b0", "hidden": false, "targetId": "b6ed-72b9-fb22-92be", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Lannister Guards",
+            "id": "5e56-2144-ae07-65af",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "4\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "3+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "7+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Longsword",
+            "id": "bd03-edfd-dcf5-462b",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "6", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "5", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "4+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "0f68-cf6f-70e4-2af2",
+            "description": "The world over knows the extent of Lannister wealth, and its influence extends to even their most basic foot soldiers. The rank-and-file Lannister forces enjoy a battlefield superiority borne of strong armor, heavy metal shields, and the sense of invulnerability that goes with it. Most enemies of House Lannister prove incapable of even making a dent in such stalwart lines.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Lannister Halberdiers",
+        "id": "0f24-0484-d3e5-858a",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2b02-3d1d-dd03-f9d0", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "New CategoryLink", "id": "ebae-9ab7-75d9-d01f", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 6}],
+        "infoLinks": [
+          {"name": "Halberd", "id": "1f70-26a9-db5b-9803", "hidden": false, "targetId": "7192-d46d-ac00-c683", "type": "rule"},
+          {"name": "Order: Set For Charge", "id": "a954-9d17-b5ab-d7ab", "hidden": false, "targetId": "1f4b-d1f2-1262-826a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Lannister Halberdiers",
+            "id": "c41b-4d3f-1a19-a158",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "4+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "7+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Halberd",
+            "id": "d512-fff0-4d34-7d01",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "7", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "4+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "65df-631c-9d7b-6c62",
+            "description": "While capable of mounting offensive assaults, House Lannister's Halberdiers excel in defensive formations and positions. Charging enemies should think twice before facing an entrenched Halberdier line. Care should be taken to shield Halberdiers from flanking maneuvers or ranged fire, but, when properly employed, nothing gets past a Halberdier's deadly blade.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "House Clegane Mountain's Men",
+        "id": "afe5-a5a6-1759-606d",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "7f06-78ee-c770-7e6e", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "New CategoryLink", "id": "539c-de16-30da-7af8", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 6}],
+        "infoLinks": [{"name": "Vicious Methods", "id": "86a7-2029-67f4-aa07", "hidden": false, "targetId": "7287-821e-bf63-8a30", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "The Mountain's Men",
+            "id": "d6b7-2028-8c7d-1b6c",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "4+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "7+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Vicious Methods",
+            "id": "c5c0-91b9-74be-3626",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "8", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "6", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "4", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "99c0-9645-430e-3cda",
+            "description": "Brutal, savage, merciless, and ferocious, the Mountain's Men bring the art of warfare to new lows. They accpet no quarter. Those that flee are cut down, those that surrender are run through. The Mountain's Men excel at striking enemy troops already beleaguered by regular forces, and shattering their will to fight. Care must be taken not to let these ruthless men too far off their leash.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Cersei Lannister - Queen Regent",
+        "id": "ae0f-95b8-3eaf-b79f",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8b18-f628-ed70-319b", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "New CategoryLink", "id": "2831-2b79-49bd-22ba", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "No Confidence",
+            "id": "a5ea-3491-92bc-e55a",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "NCU",
+            "characteristics": [
+              {"name": "Description", "$text": "\"When you play the game of thrones, you win or you die. There is no middle ground.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round): While Influencing a unit, that unit suffers -2 to Morale Test rolls.",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The High Sparrow",
+        "id": "da23-29ab-3ad2-fcfe",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c133-7e8e-3856-c165", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "New CategoryLink", "id": "f6c3-55b6-aa25-44a6", "hidden": false, "primary": false, "targetId": "9c52-387e-c59a-a747"},
+          {"name": "New CategoryLink", "id": "5a7c-8032-b08d-526b", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "profiles": [
+          {
+            "name": "Unwavering Conviction",
+            "id": "4010-cfe6-7b04-426d",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "NCU",
+            "characteristics": [
+              {"name": "Description", "$text": "\"I Seldom feel so close to gods as when I am being whipped for mine own wickeness...\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the road): While Influencing a unit, they gain +2 to Morale Test rolls.",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          },
+          {
+            "name": "Character",
+            "id": "901b-43e8-f28d-bf1d",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Mercy of the Mother  - Protection of the Father  - Wrath of the Warrior", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Tyrion Lannister - The Imp",
+        "id": "c230-a7af-3c02-7457",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8c18-39bb-c386-5542", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "New CategoryLink", "id": "b3ab-7aa9-3c0f-247c", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "Tactical Mastermind",
+            "id": "8d88-f764-4a8a-cbe3",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "NCU",
+            "characteristics": [
+              {"name": "Description", "$text": "\"He is bigger man than he seems, I think.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "Your Tactics Hand size is increased by +1. (You start the game with 4 cards and may draw up to 4 cards when re-filling your hand) Tyrion begins the game with 2 Order tokens on him. When Tyrion activates, you may discard 1 Order token from him to force your opponent to reveal 2 Tactics cards from their hand (or 1 if they only have 1). Discard 1 of those cards.",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tywin Lannister - The Great Lion",
+        "id": "9c1c-c50c-a915-4298",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3942-709f-102c-e945", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "New CategoryLink", "id": "3edf-dd19-f755-079e", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "profiles": [
+          {
+            "name": "The Rains of Castamere",
+            "id": "b462-93ce-7992-d9c4",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "NCU",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Some battles are won with swords and spears, other with quills and ravens.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "Once per game, at the start of any turn, choose one enemy Combat Unit: That unit becomes Panicked, Weakened, Vulnerable,and any Attachments on that unit lose all Abilities until the end of the round. (Flip this card over to show its Ability has been used.)",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Assault Veteran",
+        "id": "eb61-d8ee-bb5a-eb4d",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9fd0-79bc-f336-3001", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "898c-62c9-df96-330d", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 1}],
+        "profiles": [
+          {
+            "name": "Order: Hold The Line!",
+            "id": "150b-52db-8d4e-a273",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "Assault Veteran", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "If this unit began the turn engaged: This unit's Melee Attacks gain +1 to Hit and roll +2 dice this turn.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guard Captain",
+        "id": "fab5-841e-87a8-2728",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5ca0-815a-ac57-3bcc", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "ef3f-ccd5-a054-67c8", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 1}],
+        "profiles": [
+          {
+            "name": "Order: At Any Cost",
+            "id": "796c-43f7-8c7a-a4d5",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "Lannister Guards", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "If this unit would fail a Panic Test: Kill 1 model in this unit to automatically pass this Panic Test.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sandor Clegane - The Hound",
+        "id": "9a6d-9780-747f-fa58",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "560d-12ae-fe8e-8878", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "dd1c-f007-4877-9f79", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 2}],
+        "infoLinks": [{"name": "Affiliation: House Clegane", "id": "d1bd-c007-3a0b-e60c", "hidden": false, "targetId": "1ec0-8118-a6bb-6694", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "The Hound's Fury",
+            "id": "ac26-5b2f-f2d1-2f50",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Killing is the sweetest thing there is.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "Before rolling dice, this unit's Melee Attack may gain +1 to Hit and Vicious (Defenders suffer -2 to their Panic Test). If it does, after this attack is completed, this unit suffers D3 Wounds.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - Lord Tywin's Mad Dog",
+        "id": "f3ee-391c-3736-6a50",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "bc84-4f01-d120-c01f", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "66dd-740a-3fce-01a2", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "profiles": [
+          {
+            "name": "Uncontrolled Rage",
+            "id": "bced-aff2-3090-3b63",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"No one could ever withstand Gregor.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "This unit must always declare a Charge action (if able).", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Inhuman Strength",
+            "id": "fe68-d94e-6e35-bbd9",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"No one could ever withstand Gregor.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "This unit's Melee Attacks roll +2 dice and gain Sundering (Defenders suffer -1 to their Defense Save rolls).",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - The Mountain",
+        "id": "8967-3885-9024-8e22",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "010c-7bf3-4f5a-864e", "hidden": false, "primary": false, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "2f7f-131d-048d-6420", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"},
+          {"name": "New CategoryLink", "id": "a0c8-13d2-e675-d56a", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "infoLinks": [
+          {"name": "Affiliation: House Clegane", "id": "f0d9-acc1-894c-2b85", "hidden": false, "targetId": "1ec0-8118-a6bb-6694", "type": "rule"},
+          {"name": "Unstoppable Fury", "id": "f78f-e036-3d9f-7163", "hidden": false, "targetId": "c627-460b-fd0a-56f8", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Character",
+            "id": "7ee7-0590-8da1-8f11",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Fury of the Mountain  - Orders to Destroy   - Overrun", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Jaime Lannister - The Young Lion",
+        "id": "7d56-5391-f4ed-ecb1",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "221b-dc36-7ba5-ddb9", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "0d45-7a88-6f95-801b", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 2}],
+        "profiles": [
+          {
+            "name": "Boldness and Courage",
+            "id": "455b-3541-dfce-a130",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"There are no men like me. There's only me.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "When this unit makes a Melee Attack, it is always treated as having 1 additional rank. If it already has full ranks, it rolls +2 attack dice.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jaime Lannister - The Kingslayer",
+        "id": "ca2d-92a6-6e4e-28a5",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a127-e750-83e5-7b2b", "hidden": false, "primary": false, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "d536-02e9-9b19-ff87", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"},
+          {"name": "New CategoryLink", "id": "7939-9b38-6d7a-b0cb", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "profiles": [
+          {
+            "name": "Order: Counterattack",
+            "id": "03d5-b5ef-6ece-476e",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "\"They called him the Lion of Lannister to his face and whispered Kingslayer behind his back.\"",
+                "typeId": "fc57-3aeb-b382-7d2c"
+              },
+              {
+                "name": "Power",
+                "$text": "When this unit is attacked with melee, after Attack dice are rolled: For each blocked Hit, the attacker suffers 1 automatic Hit.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Character",
+            "id": "bf33-fa82-2b3f-8578",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Kingslayer's Renown - Expert Parry - Deadly Riposte", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Tywin Lannister - Lord of Casterly Rock",
+        "id": "37e2-35e0-e85f-46ae",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "afbd-cb16-6a22-2638", "hidden": false, "primary": false, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "e594-efae-0e1c-4ad7", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"},
+          {"name": "New CategoryLink", "id": "c4d0-dcaa-21b6-4149", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "infoLinks": [{"name": "Lannister Supremacy", "id": "aed3-66f1-7788-fdc5", "hidden": false, "targetId": "b6ed-72b9-fb22-92be", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Intimidating",
+            "id": "d028-5849-1093-35c9",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"There is a tool for every task, and a task for every tool.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "When this unit activates, 1 enemy within Long Range becomes Weakened.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Character",
+            "id": "de73-a319-1a34-8982",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Exploit Weakness  - Lannister Intimidation  - The Lion's Wrath", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Lannister Crossbowmen",
+        "id": "d200-fe67-989b-c3d7",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4026-e52d-ea03-277b", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "New CategoryLink", "id": "6d27-13fb-818f-4296", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 6}],
+        "infoLinks": [{"name": "Crossbow", "id": "2f82-e3ae-a51c-d321", "hidden": false, "targetId": "b17f-465c-ebc3-6117", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Lannister Crossbowmen",
+            "id": "c192-7c59-d374-93a3",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5\"", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "5+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "8+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Crossbow",
+            "id": "5632-a048-1d84-9a2f",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "7", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "7", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Shortsword",
+            "id": "2802-52bb-a440-332e",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Atack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "5", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "4", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "4+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "c096-7444-0b11-d813",
+            "description": "In terms of training, Crossbowmen require far less than their more archaically armed counterparts. Yet, the crossbow itself is more costly to manufacture and maintain, especially in battlefield conditions. This is no issue to House Lannister. With even minimal training, Crossbowmen can fire accurately and pierce thick armor even under the pressure of a direct charge, though no Lannister commander places their Crossbowmen anywhere near a melee if it can be helped!",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Tyrion Lannister - Halfman",
+        "id": "d89c-d592-f8d0-4e18",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1f67-823e-2c62-78ed", "hidden": false, "primary": false, "targetId": "2460-6433-340e-5689"},
+          {"name": "New CategoryLink", "id": "def5-1f76-ad63-60d1", "hidden": false, "primary": true, "targetId": "2541-1bd5-5d40-1192"},
+          {"name": "New CategoryLink", "id": "018c-1cf6-5399-f0ec", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 0}],
+        "profiles": [
+          {
+            "name": "Order: Superior Tactician",
+            "id": "357e-9557-6fb5-1854",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {"name": "Description", "$text": "\"Those are brave men. Let's go kill them.\"", "typeId": "6d08-9f7d-1100-7e00"},
+              {
+                "name": "Power",
+                "$text": "When an opponent plays a Tactics Card: Roll a die. On a 5+ cancel the effect of that Tactics Card. You may discard a Tactics Card to re-roll this die (this may be repeated).",
+                "typeId": "095c-6bd5-1bee-1cf8"
+              }
+            ]
+          },
+          {
+            "name": "Character",
+            "id": "c9ff-e4b9-ca4b-e5a4",
+            "hidden": false,
+            "typeId": "f537-3fe1-4bfb-be4b",
+            "typeName": "Tactical Cards",
+            "characteristics": [{"name": "Cards", "$text": "- Adaptive Tactics - Cunning Ploy - Delay Orders", "typeId": "edf4-ce00-def2-83b6"}]
+          }
+        ]
+      },
+      {
+        "name": "Pycelle - Grand Maester",
+        "id": "379f-2f77-67fd-6da0",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "bd5c-08ef-3d60-447b", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "New CategoryLink", "id": "3e7c-2ce9-20f6-cb29", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "profiles": [
+          {
+            "name": "Manipluation and Deception",
+            "id": "3ec5-70e1-c897-c354",
+            "hidden": false,
+            "typeId": "f83a-0c1a-d235-e07e",
+            "typeName": "Non-Combatant Unit",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "\"Pycelle is a toad. But better a Lannister toad then a Tyrell toad, no?\" - Tyrion Lannister",
+                "typeId": "6d08-9f7d-1100-7e00"
+              },
+              {"name": "Power", "$text": "Whenever Pycelle claims a zone on the Tactics Board, 1 enemy Combat Unit becomes Weakened.", "typeId": "095c-6bd5-1bee-1cf8"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - The Mountain That Rides",
+        "id": "c27f-f0ef-7286-1c26",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9977-21c7-40db-4aa0", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "Cavalry Unit", "id": "9909-7656-d4ca-7ea4", "hidden": false, "primary": true, "targetId": "ea8e-f716-950b-84c2"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 4}],
+        "infoLinks": [{"name": "Cleaving Blows", "id": "b278-20d6-c097-cd5d", "hidden": false, "targetId": "8021-4b67-1762-4d93", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Gregor Clegane - The Mountain That Rides",
+            "id": "ea6b-006e-ce44-cfbe",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "2+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "3+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          },
+          {
+            "name": "Cleaving Blows",
+            "id": "bec3-5b22-d3fd-b2ab",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "4", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "-", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "-", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "d44d-905f-4056-8539",
+            "description": "Ser Gregor Clegane truly towers over ordinary men. Such a massive man requires a mount of similar proportions, though the largest of steeds appear as mere ponies beneath the Mountain That Rides. Units under the Mountain's command hit like an avalanche, and leave similar destruction in their wake. The Mountain is an utterly merciless opponent, a true weapon of muscle and steel.",
+            "hidden": false
+          },
+          {
+            "name": "The Mountain That Rides",
+            "id": "357a-13a6-d73b-cb32",
+            "description": "This model has 4 Wounds.\nAt the start of this model's activation, it may take a free Maneuver action.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Gregor Clegane - Mounted Behemoth",
+        "id": "843e-6a6b-f7c1-7d7f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "House Lannister", "id": "ebec-c748-3bc9-f094", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "Unit Attachment", "id": "4d6b-abf4-0ae7-4dfe", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "infoLinks": [{"name": "Unstoppable Fury", "id": "caca-3d9d-9093-7335", "hidden": false, "targetId": "c627-460b-fd0a-56f8", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Order: Overrun",
+            "id": "67f7-170a-33a0-828b",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "\"That beast's head would make a noble gift for all the people of the realm, I vow.\" - Brynden Tully",
+                "typeId": "fc57-3aeb-b382-7d2c"
+              },
+              {
+                "name": "Power",
+                "$text": "When this unit destroys an enemy: Instead of Maneuvering, this unit may pivot and make a free Charge action.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tyrion Lannister - The Giant of Lannister",
+        "id": "5455-f7cc-24df-0b86",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "House Lannister", "id": "2353-0dc2-7f66-fec7", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "Unit Attachment", "id": "e42f-9030-c3ac-3987", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 3}],
+        "profiles": [
+          {
+            "name": "Order: Adaptive Planning",
+            "id": "3d6d-4e33-c7f9-fbbc",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"I think he is a giant come among us, here at the end of the world.\" - Maestar Aemon", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "While this unit is engaged: You may expend a Condition token on an enemy engaged with this unit as if it were any other Condition token.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Order: Counterstrategy",
+            "id": "1974-309e-b4d0-1e39",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"I think he is a giant come among us, here at the end of the world.\" - Maestar Aemon", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "When an enemy engaged with this unit uses an Order or is targeted by a Tactics card: Roll a die. On a 3+, cancel that Order/Tactics card.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyromancers",
+        "id": "f77a-49b1-fde2-7a7f",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "House Lannister", "id": "fd7b-981b-8303-9400", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "Infantry Unit", "id": "e271-19a7-199a-c523", "hidden": false, "primary": true, "targetId": "7ae7-192e-b4b9-62de"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 7}],
+        "profiles": [
+          {
+            "name": "Wildfire",
+            "id": "0ea0-491c-cf59-4f01",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "6", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "5", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Ranged", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Wildfire",
+            "id": "8c1c-e4a0-61c4-4cf4",
+            "hidden": false,
+            "typeId": "8088-4029-2853-6c54",
+            "typeName": "Attack",
+            "characteristics": [
+              {"name": "Attack Dice Rank1", "$text": "6", "typeId": "6916-aa21-d32a-298d"},
+              {"name": "Attack Dice Rank2", "$text": "5", "typeId": "a1ab-fd28-f44e-0099"},
+              {"name": "Attack Dice Rank3", "$text": "3", "typeId": "1909-da8b-a3a5-bb61"},
+              {"name": "To Hit Value", "$text": "3+", "typeId": "5c8f-e075-c8eb-1eb4"},
+              {"name": "Type", "$text": "Melee", "typeId": "0df2-f7b3-3263-b4c7"}
+            ]
+          },
+          {
+            "name": "Pyromancers",
+            "id": "f90f-6f79-8ad7-80c8",
+            "hidden": false,
+            "typeId": "e3e9-9e7b-99e0-c84a",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Speed", "$text": "5", "typeId": "d643-93f4-a74b-3500"},
+              {"name": "Defense", "$text": "6+", "typeId": "db7e-43bc-c2ac-0ee8"},
+              {"name": "Morale", "$text": "7+", "typeId": "800e-8f16-2151-314e"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Description",
+            "id": "2d90-52c3-659e-dc46",
+            "description": "Pyromancers from the Alchemist's Guild employ House Lannister's most fearsome and devastating weapon: Wildfire. Known as 'the substance', Wildfire is a green-tinted liquid of remarkable destructive potential. Its volatility makes transporting and employing the substance hazardous in and of itself, yet, no unit of mere mortal men and endure its assault. Even the thickest armor is useless against its clinging, perncious flames.",
+            "hidden": false
+          },
+          {
+            "name": "Wildfire (Ranged)",
+            "id": "685d-875e-5651-14c5",
+            "description": "- Short Range\n- Defenders do not get Defense Saves against this attack.\n- Vicious (Defenders suffer -2 to their Panic Test).",
+            "hidden": false
+          },
+          {
+            "name": "Wildfire (Melee)",
+            "id": "2e94-68ab-15a4-b8aa",
+            "description": "- For each roll of 1, deal this unit and the defender 1 Wound.\n- Defenders do not get Defense Saves against this attack.\n- Vicious (Defenders suffer -2 to their Panic Test).",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Jaime Lannister - Maimed Hostage",
+        "id": "605e-0c92-4bab-04c8",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Infantry Unit", "id": "dcfa-9ade-1178-1ce1", "hidden": false, "primary": false, "targetId": "7ae7-192e-b4b9-62de"},
+          {"name": "Unit Attachment", "id": "75d2-0477-6990-d822", "hidden": false, "primary": true, "targetId": "2460-6433-340e-5689"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 2}],
+        "profiles": [
+          {
+            "name": "Valuable Captive",
+            "id": "aa8c-57ed-f45c-55ee",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"What they did to him was unspeakably cruel.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {
+                "name": "Power",
+                "$text": "This model is always the last model destroyed from this unit When this unit is destroyed, it grants +1 additional Victory Point.",
+                "typeId": "0338-614a-a64b-fcd6"
+              },
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          },
+          {
+            "name": "Vengeful Captive",
+            "id": "0160-9ac8-4149-1b16",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "\"What they did to him was unspeakable cruel.\"", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "At the end of each of its activations, this unit suffers D3 automatic Hits.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Character",
+            "id": "bc76-b642-66a0-d802",
+            "description": "Before Deployment, attach Jaime to an enemy Infantry unit, ignoring the usual Attachment restriction.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Champion of the Faith",
+        "id": "90d5-ffec-d511-ee32",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "House Lannister", "id": "8391-8bc3-b8c7-167c", "hidden": false, "primary": false, "targetId": "1458-5528-7b7a-e727"},
+          {"name": "Non-Combatant Unit", "id": "3394-a754-bec1-ac84", "hidden": false, "primary": true, "targetId": "9c52-387e-c59a-a747"}
+        ],
+        "costs": [{"name": " Points", "typeId": "b577-9152-be95-5bbf", "value": 1}],
+        "profiles": [
+          {
+            "name": "Order: Stand Resolute",
+            "id": "b158-d3f1-b08b-36c6",
+            "hidden": false,
+            "typeId": "d334-56b1-a4d9-21a9",
+            "typeName": "Unit Attachment",
+            "characteristics": [
+              {"name": "Description", "$text": "Champion of the Faith", "typeId": "fc57-3aeb-b382-7d2c"},
+              {"name": "Power", "$text": "When this unit passes a Morale Test: All enemies engaged with this unit become Vulnerable.", "typeId": "0338-614a-a64b-fcd6"},
+              {"name": "Type", "$text": "Infantry", "typeId": "3f8a-4023-04b2-205f"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
